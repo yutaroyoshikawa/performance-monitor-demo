@@ -5,7 +5,7 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import firebase from 'firebase/app';
 import 'firebase/performance';
-import firebaseConfig from '../firebaseconfig.json';
+import firebaseConfig from './firebaseconfig.json';
 
 firebase.initializeApp(firebaseConfig);
 
