@@ -3,6 +3,13 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import firebase from 'firebase/app';
+import 'firebase/performance';
+import firebaseConfig from '../firebaseconfig.json';
+
+firebase.initializeApp(firebaseConfig);
+
+firebase.performance();
 
 ReactDOM.render(
   <React.StrictMode>
